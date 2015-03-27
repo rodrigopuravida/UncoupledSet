@@ -8,5 +8,13 @@
 
 import Foundation
 
-println("Hello, World!")
+var array = [0, 1, 2, 3, 0, 1, 2]
+
+var testObject : UncoupledSet
+
+var result : Int
+
+testObject = UncoupledSet()
+result = testObject.findUncoupledSet(array)
+println(result)
 
